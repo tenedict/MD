@@ -48,7 +48,7 @@ struct ContentView: View {
         return am
     }
     
-    // 생체인식
+    // Face ID 사용
     func authenticate() {
         let context = LAContext()
         var error: NSError?
